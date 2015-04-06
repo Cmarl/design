@@ -1,5 +1,357 @@
+* {
+  margin-left: 0;
+  margin-right: 0;
+}
 #rumble-labs{
-  h1 {
-    color: pink;
+  @import url(http://fonts.googleapis.com/css?family=Merriweather:300italic);
+
+  #nav {
+    background-color: #0f0f0f;
+    color: #e4e4e4;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-bottom: 0px;
   }
+  #logo {
+    position: relative;
+    bottom: -10px;
+    float: left;
+  }
+
+  #navCenter {
+    position: relative;
+    left: -30px;
+    font-family: Arial;
+    font-size: .8em;
+    letter-spacing: 2px;
+    text-align: center;
+    display: inline;
+  }
+
+  #navRight {
+    position: relative;
+    margin-right: 5px;
+    top: -30px;
+    text-align: right;
+  }
+
+  #navRight > a:link {
+    color: #d3c14e;
+    text-decoration: none;
+  }
+
+  #navRight > a:hover {
+    color: #883883;
+  }
+
+
+  #hello {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)
+      ),url('/assets/header-brogramming-niall-phil.jpg')no-repeat ;
+    background-size:100%;
+    position: relative;
+    top: -31px;
+  }
+
+  #helloContainer {
+    color: white;
+    text-align: center;
+  }
+
+  #helloContainer > h1 {
+    padding-top: 150px;
+    font-size: 45px;
+    font-family: Arial;
+    text-transform: uppercase;
+  }
+
+  #experts {
+    position: relative;
+    bottom: -80px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+  }
+
+  #things {
+    position: relative;
+    bottom: -75px;
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+    padding-bottom: 55px;
+  }
+
+  #learn {
+    position: relative;
+    bottom: -120px;
+    border-radius: 5px;
+    border: 2px solid #f7ce6e;
+    background-color: transparent;
+    color: #cab45a;
+    margin-bottom: 300px;
+    padding: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  #helloContainer > button:hover, #learn:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+
+  #videoContainer {
+    text-align: center;
+  }
+
+  video {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #aboutContainer > h6, #servicesContainer > h6, #contactContainer > h6 {
+    font-family: Arial;
+    font-size: 1.0em;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ABA9A9;
+    padding-top: 70px;
+  }
+
+  #aboutContainer > h3, #servicesContainer > h3, #contactContainer > h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    font-size: 2.4em;
+    text-align: center;
+    padding-bottom: 70px;
+  }
+
+  #aboutThing {
+    position: relative;
+    left: 480px;
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    display: inline-block;
+    text-align: center;
+    padding-right: 150px;
+    padding-bottom: 40px;
+  }
+
+  #aboutThing > h4 {
+    font-size: 1.3em;
+  }
+
+  #aboutThing > p, #aboutThing > a, #serv > p, #great {
+    font-size: 1.2em;
+    line-height: 27px;
+  }
+
+  #aboutThing > a {
+    letter-spacing: .5px;
+    font-weight: 100;
+    color: #0e54f7;
+  }
+
+  #aboutThing > img {
+    height: 150px;
+    width: 150px;
+  }
+
+  #servicesContainer {
+    background-color: #EBEBEB;
+  }
+
+  #serv {
+    position: relative;
+    left: 60px;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    padding-left:60px;
+    padding-bottom: 90px;
+  }
+
+  #serv > h3 {
+    font-size: 1.7em;
+  }
+
+  #sImg {
+    width: 300px;
+  }
+
+  #lineDiv {
+    width: 80px;
+    height: 7px;
+    background-color: #0f0f0f;
+    position: relative;
+    right: -800px;
+    text-align: center;
+    display: block;
+  }
+
+  #servicesContainer > h3 {
+    padding-top:90px;
+  }
+
+  #involve {
+    position: relative;
+    left: -40px;
+  }
+
+  #involve > li {
+    list-style: none;
+    border-top: 1px dotted #797979;
+    padding: 7px;
+  }
+
+  #projectsContainer {
+    background-color: #2a9350;
+    position: relative;
+    top: -35px;
+    width: 105%;
+    margin-left: -20px;
+  }
+
+  #proHeader {
+    padding-top: 85px;
+    padding-bottom: 65px;
+    font-family: Arial;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+  }
+
+  #proj {
+    position: relative;
+    right: -5px;
+    margin-left: -5px;
+  }
+
+  #proj > img {
+    width: 585px;
+    border: 0;
+    vertical-align: middle;
+    horizontal-align: middle;
+    margin: 0;
+  }
+
+  #row {
+    display: inline-block;
+  }
+
+  #contactContainer {
+    position: relative;
+    top: -75px;
+    background-color: #232323;
+    right: -5px;
+    margin-left: -5px;
+  }
+
+  #contactContainer > h3 {
+    color: #cbcbcb;
+  }
+
+  #contactContainer > hr {
+    position: relative;
+    top: -30px;
+    left: 819px;
+    background-color: #cbcbcb;
+  }
+
+  #greatContainer {
+    position: relative;
+    right: -430px;
+    width: 50%;
+  }
+
+  #great {
+    text-align: center;
+    color: #cbcbcb;
+    line-height: 40px;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+  #startNow {
+    text-align: center;
+    border: 1px solid #38579a;
+    background-color: #38579a;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #cbcbcb;
+    font-weight: heavy;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #contactContainer > p {
+    padding-top: 10;
+  }
+
+  #startNow:hover {
+    background-color: rgb(146, 76, 76);
+  }
+
+  #footerContainer {
+    position: relative;
+    top: -100px;
+    background-color: #0c0c0c;
+    color: #cbcbcb;
+  }
+
+  #imgFootLeft {
+    position: relative;
+    bottom: -70px;
+    right: -130px;
+    width: 150px;
+  }
+
+  #leftFoot {
+    position: relative;
+    right: -270px;
+    bottom: 55px;
+  }
+
+  #imgFootCenter {
+    position: relative;
+    right: -650px;
+    top: -210px;
+    width: 150px;
+  }
+
+  #midFoot {
+    position: relative;
+    right: -800px;
+    top: -345px;
+  }
+
+  #rightFoot {
+    position: relative;
+    right: -1330px;
+    top: -450px;
+  }
+
+  #bold {
+    font-weight: bold;
+  }
+
+  #chunkFoot, #rightChunkFoot {
+    list-style: none;
+    font-size: 25px;
+  }
+
+   i {
+    line-height: 50px;
+    width: 40px;
+    height: 40px;
+  }
+
 }

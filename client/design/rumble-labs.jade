@@ -1,4 +1,145 @@
 extends ../index
 block content
   #rumble-labs
-    h1 Rumble Labs
+    #nav
+      #logo
+        img(src='/assets/rumb-logo.svg')
+      #navCenter
+        p ABOUT US / PROJECTS / BLOG
+      #navRight
+        a(href='#')#workWith Work With Us >
+    #hello
+      #helloContainer
+        h1 Hello, We're Rumble Labs
+        p#experts Experts in
+        p#things App development, design and strategy<br>for the web, iOS and Mac.
+        button#learn LEARN MORE >
+    #videoArea
+      #videoContainer
+        iframe(src='https://player.vimeo.com/video/119068482', width='1000', height='560', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')#video
+    #aboutUs
+      #aboutContainer
+        h6 ABOUT US
+        h3 We Work the Rumble way
+        #ways
+          #aboutThing
+            img(src='/assets/home-culture.jpg')
+            h4 Great Culture
+            p Collaborative, open and fun! Our culture<br> maximises happiness to the benefit of<br> productivity and creativity.
+            a(href='#') Get to know us better
+          #aboutThing
+            img(src='/assets/home-process.jpg')
+            h4 Proven Process
+            p We practice Agile Design and Development,<br> taking the time to understand<br> requirements and deliver on them.
+            a(href='#') See where we've applied this
+    #service
+      #servicesContainer
+        h6 SERVICES
+        h3 Our valuable expertise lies in:
+        ul#serviceList
+          li#serv
+            img(src='/assets/simon-whiteboarding.jpg')#sImg
+            h3 Product Strategy
+            p By taking the time to understand your product from a business, technical and creative standpoint we develop strategies to fit the needs of each project.
+          li#serv
+            img(src='/assets/about-app-development.jpg')#sImg
+            h3 Web App Development
+            p We create highly functional applicationsfor the web with modern technologies and open-source tools using an iteratative, agile methodology.
+          li#serv
+            img(src='/assets/niall-mac-app-planning-1.jpg')#sImg
+            h3 iOS / Mac Development
+            p We have experience building, designing and launching software to the App Store for Apple devices (iPhones, iPads, Macs etc), often with web components.
+          li#serv
+            img(src='/assets/about-responsive-design.jpg')#sImg
+            h3 Responsive Web Design
+            p At Rumble we design flexible, tailored front-ends that are optimised for all devices ensuring the best experience for every potential user scenario.
+        hr#lineDiv
+        h3 Each of our projects involve the following:
+        ul#serviceList
+          li#serv
+            h3 Planning
+            p A well thought out project plan is fundamental to a projects success.
+            ul#involve
+              li Project speccing
+              li Research (User, Product, Technical)
+              li Information architecture
+              li Userflow analysis
+              li Content strategy
+          li#serv
+            h3 Design
+            p An iterative process always geared towards fulfilling a users needs.
+            ul#involve
+              li Prototyping / Wireframing
+              li User-centric design
+              li Interface design
+              li Branding
+              li Data visualisation
+          li#serv
+            h3 Development
+            p Software engineered with Ruby, Rails, Javascript and Objective-C.
+            ul#involve
+              li Front-end dev (HTML5, CSS3)
+              li API integration
+              li Testing (Usability, Code)
+              li Technical consulting
+              li Content management systems
+          li#serv
+            h3 Growth
+            p Management, support and tracking for your project over its lifespan.
+            ul#involve
+              li Training
+              li Social media engagement
+              li Operations and deployments
+              li Hosting and support
+              li Analytics
+    #projects
+      #projectsContainer
+        h3#proHeader LEARN ABOUT OUR PROJECTS
+        #row
+          #proj
+            img(src='/assets/project-cover-nuu.jpg')
+          #proj
+            img(src='/assets/nitb-app-2.jpg')
+        #row
+          #proj
+            img(src='/assets/digital-circle-monitor.jpg')
+          #proj
+            img(src='/assets/lisson-gallery.jpg')
+        #row
+          #proj
+            img(src='/assets/yolla-scan.jpg')
+          #proj
+            img(src='/assets/squarevid-punchbag.jpg')
+    #contact
+      #contactContainer
+        h6 GET IN TOUCH
+        h3 Do you have a project enquiry?
+        hr#lineDiv
+        #greatContainer
+          p#great <b>Great!</b> Tell us about it by completing our project planner. Doing so helps us better<br> understand your requirements and in turn we can provide a more helpful response.
+            button#startNow START YOUR PROJECT PLAN NOW
+            <br>
+          p#great <b>Or email us –</b> hello@rumblelabs.com
+    #footer
+      #footerContainer
+        img(src='/assets/belfast.png')#imgFootLeft
+        #leftFoot
+          ul#chunkFoot
+            li#bold The Rumble Laboratory
+            li 46 Hill St, Belfast, BT1 2LB
+            li Call: +44 (0) 28 9568 0011  
+        img(src='/assets/london.png')#imgFootCenter
+        #midFoot
+          ul#chunkFoot
+            li#bold The Field Office
+            li 125 - 127 Mare Street London, E8 3RH
+            li Call: +44 (0) 20 3239 3944
+        #rightFoot
+          ul#rightChunkFoot
+            li#bold On the Web
+            li#icons
+              i.fa.icon-large.fa-twitter
+              i.fa.icon-large.fa-facebook-square
+              i.fa.icon-large.fa-flickr
+              i.fa.icon-large.fa-instagram
+            
